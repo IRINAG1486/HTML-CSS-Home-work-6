@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+svg:hover path {
+    fill: rgba(58, 56, 56, 0.86);
+}
+
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
@@ -226,4 +230,122 @@
     line-height: normal;
     border: 1px solid #ff6a6a;
     background: #fff;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
+
+    .header {
+        padding-bottom: 18px;
+        gap: 424px;
+        max-width: 1024px;
+    }
+
+    .offer {
+        padding-left: calc(50% - 385px);
+        padding-right: calc(50% - 385px);
+        gap: 39px;
+        background: #f1e4e6;
+    }
+
+    .offer-photo img {
+        max-width: 50%;
+    }
+
+    .offer-text-start {
+        font-size: 44px;
+    }
+
+    .offer-text-end {
+        font-size: 24px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 168px auto;
+        gap: 20px;
+    }
+
+    .categories-text {
+        position: absolute;
+        color: #fff;
+
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .categories-main-text {
+        color: #f16d7f;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .future {
+        padding-top: 44px;
+        padding-bottom: 71px;
+    }
+
+    .future-heading {
+        gap: 3px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 73px;
+    }
+
+    .future-main {
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .future-main-photo {
+        width: 100%;
+    }
+
+    .future-main-text {
+        padding: 25px 18px 20px 28px;
+    }
+
+    .future-main-text-title {
+        color: #000;
+
+        font-family: Lato;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .future-main-text-description {
+        color: #5d5d5d;
+
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 314.743px;
+        margin-bottom: 16px;
+    }
+
+    .future-main-text-price {
+        color: #f16d7f;
+
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
