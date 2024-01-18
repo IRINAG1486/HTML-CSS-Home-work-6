@@ -349,3 +349,67 @@ svg:hover path {
         line-height: normal;
     }
 }
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 179px);
+        padding-right: calc(50% - 179px);
+    }
+
+    .block-none {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 18px;
+        gap: 267px;
+        max-width: 767px;
+    }
+
+    .offer {
+        padding-left: calc(50% - 188px);
+        padding-right: calc(50% - 188px);
+        padding-top: 148px;
+        padding-bottom: 149px;
+    }
+
+    .offer-text {
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+    .offer-text-start {
+        font-size: 38px;
+    }
+
+    .offer-text-end {
+        font-size: 20px;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .categories-big {
+        height: 111px;
+    }
+
+    .block-size {
+        height: 100%;
+    }
+
+    .future {
+        padding-top: 0px;
+    }
+
+    .future-heading {
+        gap: 3px;
+        margin-bottom: 65px;
+    }
+
+    .future-main {
+        grid-template-columns: 358px;
+        margin-bottom: 40px;
+    }
+}
