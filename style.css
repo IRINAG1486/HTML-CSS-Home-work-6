@@ -908,6 +908,7 @@
         padding-bottom: 18px;
         justify-content: center;
         max-width: 767px;
+          gap: 267px;
     }
 
     .offer {
