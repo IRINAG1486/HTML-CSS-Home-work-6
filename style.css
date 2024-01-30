@@ -906,7 +906,7 @@
 
     .header {
         padding-bottom: 18px;
-        gap: 267px;
+        justify-content: center;
         max-width: 767px;
     }
 
